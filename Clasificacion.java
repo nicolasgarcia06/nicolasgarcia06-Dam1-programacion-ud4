@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Calificacion {
 
     public String obtenerCalificacion(double valor) {
-        if (valor >= 0 && valor < 4) {
+        if (valor >= 0 && valor <= 4) {
             return "insuficiente";
 
         } else if (valor == 5) {
@@ -23,11 +23,11 @@ class Calificacion {
         Calificacion programa = new Calificacion();
         Scanner sc = new Scanner(System.in);
         System.out.println("introduce una nota");
-        double nota = sc.nextDouble();
+        double valor = sc.nextDouble();
 
         // Pedir nota por pantalla
         // nota = 0.0;
-        String calificacion = programa.obtenerCalificacion(nota);
+        String calificacion = programa.obtenerCalificacion(valor);
         // Mostrar calificacion
         System.out.println(calificacion);
         sc.close();
