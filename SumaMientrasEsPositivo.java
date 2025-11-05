@@ -11,9 +11,9 @@ public class SumaMientrasEsPositivo {
                 break;
             }
             suma += numero;
-
+            System.out.println("la suma es:" + suma);
         }
-        System.out.println("la suma es:" + suma);
+        
         sc.close();
     }
 }
