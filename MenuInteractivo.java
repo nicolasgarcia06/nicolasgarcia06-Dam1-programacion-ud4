@@ -21,13 +21,15 @@ System.out.println(hora);}
 case 3 ->{ System.out.print("texto:");String texto=sc.nextLine();System.out.println(texto);}
 case 4 -> System.out.println("adios");
 default -> System.out.println("Opcion no valida");
-        }
-    }
-    while(opcion!=4);{
-        
-    sc.close();
-    }
 
+        }
+        
+    }
+    while(opcion!=4);
+        
+    
+    
+sc.close();
 
 
 }
