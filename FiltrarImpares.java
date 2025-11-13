@@ -1,5 +1,5 @@
 public class FiltrarImpares {
-public static void FiltrarImpares(int[] array){
+ static void FiltrarImpares(int[] array){
     for(int i=0;i<array.length;i++){
         if(array[i] % 2==0){
             continue;
