@@ -13,7 +13,7 @@ public class SumaMientrasEsPositivo {
             suma += numero;
             System.out.println("la suma es:" + suma);
         }
-        
+
         sc.close();
     }
 }
