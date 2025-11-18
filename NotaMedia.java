@@ -23,16 +23,17 @@ contador++;
 
     }
 while(true);{
-     if(nota>0 && nota<10){
-int media=suma/contador;
-System.out.println("la media es:%d"+media);
-}
+if(contador>0){
+    int media=suma/contador;
+System.out.print(media);}
 else{
     System.out.println("no hay datos");
 }
 }
 sc.close();
 }
+
+
 public static void main(String[] args) {
     Notas();
 }
